@@ -17,7 +17,7 @@ const Top = () => {
   if (user) {
     return (
       <div>
-        <h1>ホームページ</h1>
+        <h1>ログインできました！</h1>
         <button onClick={handleLogout}>ログアウト</button>
       </div>
     );
