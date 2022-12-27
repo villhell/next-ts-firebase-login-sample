@@ -4,6 +4,20 @@
 ２．firebaseでアプリを登録後にFirebaseに接続するための情報が表示されるのでそれをコピー。<br />
 ３．ローカル環境に.envファイルを作成し、２の情報を設定する。<br />
 
+
+```
+xxxの部分にfirebaseの設定を入力してください。
+
+.env
+FIREBASE_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_DOMAIN=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_PROJECT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_STORAGE_BUCKET=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_SENDER_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_APP_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_MEASUREMENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
 あとはnpm install、npm run devで起動するはず。
 
 ### 備考
